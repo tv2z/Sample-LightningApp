@@ -24,15 +24,6 @@ export default class ScrollList extends Lightning.Component {
     }
   }
 
-  _focus() {
-    this.tag('ScrollSurface').alpha = 0.6
-  }
-
-  _unfocus() {
-    this.tag('ScrollSurface').alpha = 0
-  }
-
-
   set items(staticPageData) {
     this.offsetYposition = 0
     this.lines = staticPageData
