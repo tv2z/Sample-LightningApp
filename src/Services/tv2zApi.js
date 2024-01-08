@@ -3,8 +3,8 @@ export const homePageInfo = [
     'title': 'Banners',
     'key': 'banner',
     'list': [
-      { 'content_id': 1001, 'publish_time': '2016', 'title': 'John Wick 3', 'orentitation': 0, 'duration': '40 minutes', 'banner_medium': '', 'banner_image': 'John_wick.jpeg', 'poster_image': '', 'description': 'John Wick is on the run after killing a member of the international assassins guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.' , 'playback_url': '', 'tags': 'Thriller & Crime,Drama' },
-      { 'content_id': 1002, 'publish_time': '2019', 'title': 'The Handmaiden', 'orentitation': 0, 'duration': '90 minutes', 'banner_medium': '', 'banner_image': 'Handmaiden.jpeg', 'poster_image': '', 'description': '', 'playback_url': '', 'tags': 'Thriller & Misdaad, Drama, Romantiek' }]
+      { 'content_id': 1001, 'publish_time': '2016', 'title': 'John Wick 3', 'orentitation': 0, 'duration': '40 minutes', 'banner_medium': '', 'banner_image': 'John_wick.jpeg', 'poster_image': 'john_wick_poster.png', 'description': 'John Wick is on the run after killing a member of the international assassins guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.' , 'playback_url': '', 'tags': 'Thriller & Crime,Drama' },
+      { 'content_id': 1002, 'publish_time': '2019', 'title': 'The Handmaiden', 'orentitation': 0, 'duration': '90 minutes', 'banner_medium': '', 'banner_image': 'Handmaiden.jpeg', 'poster_image': 'handmaiden_poster.png', 'description': '', 'playback_url': '', 'tags': 'Thriller & Misdaad, Drama, Romantiek' }]
   },
   {
     'title': 'Movies',

@@ -51,14 +51,17 @@ export const searchVideo = (keyword) => {
 
   for (const category of homePageInfo) {
     for (const item of category.list) {
-      const itemDescription = item.description.toLowerCase()
-      const itemTitle = item.title.toLowerCase()
-      if (itemDescription.includes(searchText) || itemTitle.includes(searchText)) {
-        matchingKeys.push({ item }) // Add the matching item to the array
-      }
+        const itemDescription = item.description.toLowerCase();
+        const itemTitle = item.title.toLowerCase();
+        if (itemTitle.includes(searchText)) {
+            matchingKeys.push({ item });
+            break; 
+        } else if (itemDescription.includes(searchText)) {
+            matchingKeys.push({ item });
+            break; 
+        }
     }
   }
-
   return matchingKeys.length > 0 ? { 'contents': [{ 'total': matchingKeys.length, 'list': matchingKeys }] } : null
 }
 
