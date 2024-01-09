@@ -1,11 +1,11 @@
-Metro app - Open-Source Code
+Sample Lightning  app - Open-Source Code
 Description:
-Metrological Lightning app for TV which is developed based on Metrological Lightning framework.
+ Lightning app for Setopboxes  which is developed based on Metrological Lightning framework.
 •   Technology stack: JavaScript based programming using Metrological Lightning framework.
 •   Version: Metrological Lightning framework 2.0.
 •   Dependency: Need to install VS Code and NPM (Node Package Manager) to run the code.
 Feature:
-Metrological Lightning TV app with the below features:
+ Lightning TV app with the below features:
 1. Home page
 2. Category page
 3. Detail page
