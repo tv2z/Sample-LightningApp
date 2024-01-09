@@ -1,6 +1,6 @@
-Sample Lightning  Application - Open-Source Code
+Sample LightningJs  Application - Open-Source Code
 Description:
- Lightning app for Settopboxes  which is developed based on Metrological Lightning framework.
+ LightningJs app for Settopboxes  which is developed based on Metrological Lightning framework.
 •   Technology stack: JavaScript based programming using Metrological Lightning framework.
 •   Version: Metrological Lightning framework 2.0.
 •   Dependency: Need to install VS Code and NPM (Node Package Manager) to run the code.
